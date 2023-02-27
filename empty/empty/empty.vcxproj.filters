@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\funcs">
+      <UniqueIdentifier>{6858dabc-6666-4db1-b1ca-d204e88705b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ui">
+      <UniqueIdentifier>{27d6b614-c8b1-41a5-9676-f899d8d4ab0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utils">
+      <UniqueIdentifier>{323acec1-baba-4e36-bb77-7a070cf3e41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ui\imgui">
+      <UniqueIdentifier>{f78bf182-8254-4d7e-85ca-d09efb3c9a55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\entrypoint.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\funcs\funcs.cpp">
+      <Filter>source\funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\imgui\imgui.cpp">
+      <Filter>source\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\imgui\imgui_demo.cpp">
+      <Filter>source\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\imgui\imgui_draw.cpp">
+      <Filter>source\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\imgui\imgui_impl_dx9.cpp">
+      <Filter>source\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\imgui\imgui_impl_win32.cpp">
+      <Filter>source\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\imgui\imgui_stdlib.cpp">
+      <Filter>source\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\imgui\imgui_tables.cpp">
+      <Filter>source\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\imgui\imgui_widgets.cpp">
+      <Filter>source\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\ui.cpp">
+      <Filter>source\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\utils\utils.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\includes.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\funcs\funcs.hpp">
+      <Filter>source\funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\imgui\imconfig.h">
+      <Filter>source\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\imgui\imgui.h">
+      <Filter>source\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\imgui\imgui_impl_dx9.h">
+      <Filter>source\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\imgui\imgui_impl_win32.h">
+      <Filter>source\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\imgui\imgui_internal.h">
+      <Filter>source\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\imgui\imgui_stdlib.h">
+      <Filter>source\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\imgui\imstb_rectpack.h">
+      <Filter>source\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\imgui\imstb_textedit.h">
+      <Filter>source\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\imgui\imstb_truetype.h">
+      <Filter>source\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\ui.hpp">
+      <Filter>source\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\utils\utils.hpp">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\utils\vars.hpp">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
